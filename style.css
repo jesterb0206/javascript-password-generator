@@ -14,44 +14,51 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #987284;
 }
 
 .wrapper {
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 header {
   text-align: center;
-  padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 5px;
+  color: white;
+  background-color: #EE7674;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: #F9B5AC;
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: #B45B5C;
+  text-align: center;
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
-  padding: 30px 40px;
+  padding: 30px 30px;
 }
 
 .card-header::after {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #FF895C;
   height: 2px;
 }
 
 .card-body {
-  min-height: 100px;
+  min-height:100px;
 }
 
 .card-footer {
@@ -62,7 +69,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #FF895C;
   height: 2px;
 }
 
@@ -74,11 +81,11 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: #9DBF9E;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
-  color: hsl(0, 0%, 100%);
+  color: #3C1C3D;
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
@@ -112,10 +119,11 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  background-color: #9DBF9E;;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+  color: white;
 }
 
 @media (max-width: 690px) {
@@ -123,6 +131,10 @@ button[disabled] {
     font-size: 1rem;
     margin: 16px 0px 0px 0px;
     padding: 10px 15px;
+  }
+
+  body{
+    background-color: #886676;
   }
 
   #password {
@@ -133,5 +145,9 @@ button[disabled] {
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
+  }
+
+  body{
+    background-color: #795b69;
   }
 }
