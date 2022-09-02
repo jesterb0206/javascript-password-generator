@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700");
+
 *,
 *::before,
 *::after {
@@ -13,9 +15,15 @@ body,
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   background-color: #987284;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
+ }
 
 .wrapper {
   padding-top: 20px;
@@ -93,6 +101,7 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
 }
 
 button[disabled] {
