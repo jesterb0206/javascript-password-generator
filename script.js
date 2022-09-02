@@ -28,7 +28,7 @@ function generatePassword() {
     if (isNaN(passwordLength)) {
       window.alert("Please enter a number!")
     } else if (passwordLength < 8 || passwordLength > 128){
-      window.alert("Invalid password length. The password length should be between 8 and 128 characters")
+      window.alert("Invalid password length. The password length should be between 8 and 128 characters.")
     } else {
       break
     }
