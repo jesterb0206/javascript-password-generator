@@ -2,11 +2,7 @@
 
 ## Description
 
-So far, in my journey as a beginner web developer, I've developed static webpages/websites that have run on only HTML and CSS. This week I wanted to change that, and create a web application that featured dynamically updated HTML and CSS powered by JavaScript code. If you do a simple search of random password generators on Google almost 34,000,000 results are found. My motivation, then, wasn't to create something that hadn't been done before, but rather, to practice new concepts I learned in Boot Camp like for loops and arrays, all the while ensuring that my web application had a visually appealing user interface that was easy to use. This web application is useful for anyone that wants to ensure that their accounts can't easily be accessed by nefarious individuals, who want to see their confidential information without their consent. I'm grateful for choosing to build this web application as it gave me the chance to further learn about for loops and arrays, as I mentioned before, but also because I got to practice writing else if statements, functions, etc. 
-
-## Installation
-
-N/A
+So far, in my journey as a beginner web developer, I've developed static webpages/websites that have run on only HTML and CSS. This week I wanted to change that, and create a web application that featured dynamically updated HTML and CSS powered by JavaScript code. If you do a simple search of random password generators on Google almost 34,000,000 results are found. My motivation, then, wasn't to create something that hadn't been done before, but rather, to practice new concepts I learned in Boot Camp like for loops and arrays, all the while ensuring that my web application had a visually appealing user interface that was easy to use. This web application is useful for anyone that wants to ensure that their accounts can't easily be accessed by nefarious individuals, who want to see their confidential information without their consent. I'm grateful for choosing to build this web application as it gave me the chance to further learn about for loops and arrays, as I mentioned before, but also because I got to practice writing else if statements, functions, etc.
 
 ## Usage
 
