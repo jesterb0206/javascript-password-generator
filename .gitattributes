@@ -1,5 +1,4 @@
 # Linguist overrides
-_.md linguist-prose=false
 _.md linguist-vendored=false
 _.md linguist-generated=false
 _.md linguist-documentation=false
